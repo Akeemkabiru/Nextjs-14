@@ -1,5 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Login() {
-  return <div>login</div>;
+  return (
+    <div>
+      <Link href="/blog">
+        Blog
+      </Link>
+    </div>
+  );
 }

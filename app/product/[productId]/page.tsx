@@ -6,5 +6,5 @@ export default function ProductId({
   params: { productId: string | number };
 }) {
   if (params.productId == 3) return <NotFound />;
-  else return <div>Products Details {params.productId}</div>;
+  else return <div>{params.productId}</div>;
 }
